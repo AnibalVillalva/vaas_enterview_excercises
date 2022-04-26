@@ -1,0 +1,1 @@
+CREATE SCHEMA `vaas_financingtool`;

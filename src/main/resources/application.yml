@@ -1,0 +1,4 @@
+#SPRING CONFIGURATION
+spring:
+  profiles:
+    active: @activatedProperties@

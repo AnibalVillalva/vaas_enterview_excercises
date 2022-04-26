@@ -1,0 +1,18 @@
+#SPRING CONFIGURATION
+spring:
+  datasource:
+    url: jdbc:h2:mem:vaastool
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+    jpa:
+      spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+  profiles:
+    active: dev
+  redis:
+    host: localhost
+    port: 6379
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
